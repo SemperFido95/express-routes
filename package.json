@@ -1,14 +1,11 @@
 {
-  "name": "tanzanite-node-express",
+  "name": "week-7",
   "version": "1.0.0",
-  "description": "Optional starting repo: https://github.com/PrimeAcademy/node-express-starter",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com-prime:PrimeAcademy/tanzanite-node-express.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/server.js"
   },
   "keywords": [],
   "author": "",

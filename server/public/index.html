@@ -11,10 +11,18 @@
     <header>
         <h1>Node & Express</h1>
     </header>
+    <form onsubmit="submitForm(event)">
+        Quote: <input type="text" id="quoteInput" />
+        <br />
+        Author: <input type="text" id="authorInput" />
+        <br />
+        <input type="submit" />
+    </form>
     <div id="content">
     </div>
     
     <!-- Our JavaScript file -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="scripts/client.js"></script>
 </body>
 
